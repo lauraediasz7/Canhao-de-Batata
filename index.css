@@ -1,6 +1,6 @@
 body {
-  background-color: #0b0c10;
-  color: #dcdcdc;
+  background-color: #07090d;
+  color: #e0e0e0;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -8,10 +8,11 @@ body {
 
 h1, h2, h3, h4 {
   color: #1e90ff;
+  font-weight: 600;
 }
 
 #hero {
-  background: linear-gradient(to bottom, #000000, #0b1a33);
+  background: linear-gradient(to bottom, #000000, #081120);
   text-align: center;
   padding: 100px 20px 50px 20px;
 }
@@ -20,36 +21,52 @@ h1, h2, h3, h4 {
   max-width: 90%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(30, 144, 255, 0.3);
+  box-shadow: 0 0 25px rgba(30, 144, 255, 0.3);
 }
 
 #hero h1 {
-  color: #1e90ff;
   font-size: 2rem;
-  font-weight: 700;
-  text-shadow: 0 0 10px rgba(30, 144, 255, 0.6);
+  color: #b0d8ff;
+  text-shadow: 0 0 10px rgba(30, 144, 255, 0.7);
   animation: brilho-aurora 3s ease-in-out infinite alternate;
 }
 
 @keyframes brilho-aurora {
   from {
-    text-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+    text-shadow: 0 0 8px rgba(30, 144, 255, 0.4);
   }
   to {
-    text-shadow: 0 0 20px rgba(30, 144, 255, 0.9);
+    text-shadow: 0 0 16px rgba(30, 144, 255, 0.9);
   }
 }
 
 .card {
-  background-color: #0d1b2a;
-  border: 1px solid rgba(30, 144, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #0c1424;
+  border: 1px solid rgba(30, 144, 255, 0.3);
   border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #f0f0f0;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 0 20px rgba(30, 144, 255, 0.3);
+  box-shadow: 0 0 25px rgba(30, 144, 255, 0.3);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  color: #64b5ff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #d6d6d6;
+  font-size: 0.95rem;
+  text-align: justify;
 }
 
 .card-img-top {
@@ -58,27 +75,15 @@ h1, h2, h3, h4 {
   border-bottom: 2px solid #1e90ff;
 }
 
-.card-body {
-  padding: 15px;
-}
-
-.card-title {
-  font-size: 1.2rem;
-}
-
-.card-text {
-  font-size: 0.9rem;
-  text-align: justify;
-}
-
 footer {
   background-color: #000000;
+  color: #b0b0b0;
   font-size: 0.9rem;
   text-align: center;
 }
 
 #equipe {
-  background: linear-gradient(to bottom, #000000, #0b1a33);
+  background: linear-gradient(to bottom, #000000, #081120);
   border-radius: 10px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -104,7 +109,6 @@ header {
 
 .navbar-brand {
   font-size: 1rem;
-  letter-spacing: 1px;
   display: flex;
   align-items: center;
 }
@@ -115,7 +119,7 @@ header {
 }
 
 .nav-link {
-  color: #dcdcdc !important;
+  color: #e0e0e0 !important;
   font-weight: 500;
   font-size: 0.9rem;
   transition: color 0.3s ease, transform 0.2s ease;
@@ -127,7 +131,7 @@ header {
 }
 
 .titulo-brilhante {
-  color: #1e90ff !important;
+  color: #64b5ff !important;
   text-shadow: 0 0 6px rgba(30, 144, 255, 0.6);
   animation: brilho-suave 3s ease-in-out infinite alternate;
   transition: transform 0.3s ease;
