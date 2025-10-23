@@ -3,8 +3,6 @@
 }
 
 body {
-  background: rgb(11, 12, 16);
-  color: rgb(220, 220, 220);
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
@@ -209,4 +207,5 @@ section {
   .titulo-brilhante {
     animation: brilho-suave 3s ease-in-out infinite alternate;
   }
+
 }
